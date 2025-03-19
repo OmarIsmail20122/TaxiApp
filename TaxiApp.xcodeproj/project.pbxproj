@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52897C802D8254AB006F017B /* TaxiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C7F2D8254AB006F017B /* TaxiAppApp.swift */; };
+		52897C802D8254AB006F017B /* TaxiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C7F2D8254AB006F017B /* TaxiApp.swift */; };
 		52897C822D8254AB006F017B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C812D8254AB006F017B /* ContentView.swift */; };
-		52897C842D8254B2006F017B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52897C832D8254B2006F017B /* Assets.xcassets */; };
 		52897C872D8254B2006F017B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52897C862D8254B2006F017B /* Preview Assets.xcassets */; };
+		52897C952D8254EA006F017B /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C942D8254EA006F017B /* UIExtension.swift */; };
+		52897C992D8255ED006F017B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52897C982D8255ED006F017B /* Assets.xcassets */; };
+		52897C9D2D825E4D006F017B /* ChangeLangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C9C2D825E4D006F017B /* ChangeLangView.swift */; };
+		52897C9F2D826220006F017B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897C9E2D826220006F017B /* WelcomeView.swift */; };
+		52897CA12D826496006F017B /* MobileNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897CA02D826496006F017B /* MobileNumberView.swift */; };
+		52897CA32D826B8A006F017B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52897CA22D826B8A006F017B /* Launch Screen.storyboard */; };
+		52897CA52D8288C8006F017B /* CountryPickerComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897CA42D8288C8006F017B /* CountryPickerComp.swift */; };
+		52897CA82D8288E5006F017B /* CountryPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 52897CA72D8288E5006F017B /* CountryPickerView */; };
+		52897CAA2D828EEE006F017B /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897CA92D828EEE006F017B /* OTPView.swift */; };
+		52897CAC2D829197006F017B /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897CAB2D829197006F017B /* OTPTextField.swift */; };
+		52D514002D8762EC001C2C70 /* FloatingField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D513FF2D8762EC001C2C70 /* FloatingField.swift */; };
+		52D514022D87640F001C2C70 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D514012D87640F001C2C70 /* SignInView.swift */; };
+		52D514042D876846001C2C70 /* NavigationBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D514032D876846001C2C70 /* NavigationBack.swift */; };
+		52D514062D877543001C2C70 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D514052D877543001C2C70 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52897C7C2D8254AB006F017B /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52897C7F2D8254AB006F017B /* TaxiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiAppApp.swift; sourceTree = "<group>"; };
+		52897C7F2D8254AB006F017B /* TaxiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiApp.swift; sourceTree = "<group>"; };
 		52897C812D8254AB006F017B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		52897C832D8254B2006F017B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52897C862D8254B2006F017B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52897C8E2D8254D8006F017B /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Bold.ttf"; path = "../../../../Downloads/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		52897C8F2D8254D8006F017B /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-SemiBold.ttf"; path = "../../../../Downloads/NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		52897C902D8254D8006F017B /* NunitoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Medium.ttf"; path = "../../../../Downloads/NunitoSans-Medium.ttf"; sourceTree = "<group>"; };
+		52897C912D8254D8006F017B /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-ExtraBold.ttf"; path = "../../../../Downloads/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		52897C922D8254D8006F017B /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Regular.ttf"; path = "../../../../Downloads/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		52897C942D8254EA006F017B /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIExtension.swift; path = ../../../../Downloads/UIExtension.swift; sourceTree = "<group>"; };
+		52897C982D8255ED006F017B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/taxi_app_swiftui-main/taxi_driver/Assets.xcassets"; sourceTree = "<group>"; };
+		52897C9C2D825E4D006F017B /* ChangeLangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLangView.swift; sourceTree = "<group>"; };
+		52897C9E2D826220006F017B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		52897CA02D826496006F017B /* MobileNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberView.swift; sourceTree = "<group>"; };
+		52897CA22D826B8A006F017B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52897CA42D8288C8006F017B /* CountryPickerComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerComp.swift; sourceTree = "<group>"; };
+		52897CA92D828EEE006F017B /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		52897CAB2D829197006F017B /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		52D513FF2D8762EC001C2C70 /* FloatingField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingField.swift; path = ../../../../Downloads/FloatingField.swift; sourceTree = "<group>"; };
+		52D514012D87640F001C2C70 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		52D514032D876846001C2C70 /* NavigationBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBack.swift; sourceTree = "<group>"; };
+		52D514052D877543001C2C70 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52897CA82D8288E5006F017B /* CountryPickerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +82,15 @@
 		52897C7E2D8254AB006F017B /* TaxiApp */ = {
 			isa = PBXGroup;
 			children = (
-				52897C7F2D8254AB006F017B /* TaxiAppApp.swift */,
+				52897C982D8255ED006F017B /* Assets.xcassets */,
+				52897C972D825503006F017B /* View */,
+				52897C962D8254F5006F017B /* Common */,
+				52897C932D8254DE006F017B /* UICommon */,
+				52897C8D2D8254BB006F017B /* Fonts */,
+				52897C7F2D8254AB006F017B /* TaxiApp.swift */,
 				52897C812D8254AB006F017B /* ContentView.swift */,
-				52897C832D8254B2006F017B /* Assets.xcassets */,
 				52897C852D8254B2006F017B /* Preview Content */,
+				52897CA22D826B8A006F017B /* Launch Screen.storyboard */,
 			);
 			path = TaxiApp;
 			sourceTree = "<group>";
@@ -65,6 +101,66 @@
 				52897C862D8254B2006F017B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52897C8D2D8254BB006F017B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52897C8E2D8254D8006F017B /* NunitoSans-Bold.ttf */,
+				52897C912D8254D8006F017B /* NunitoSans-ExtraBold.ttf */,
+				52897C902D8254D8006F017B /* NunitoSans-Medium.ttf */,
+				52897C922D8254D8006F017B /* NunitoSans-Regular.ttf */,
+				52897C8F2D8254D8006F017B /* NunitoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52897C932D8254DE006F017B /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				52897C942D8254EA006F017B /* UIExtension.swift */,
+				52D514032D876846001C2C70 /* NavigationBack.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		52897C962D8254F5006F017B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				52897CA42D8288C8006F017B /* CountryPickerComp.swift */,
+				52D513FF2D8762EC001C2C70 /* FloatingField.swift */,
+				52897CAB2D829197006F017B /* OTPTextField.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		52897C972D825503006F017B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52897C9B2D825E3F006F017B /* Login */,
+				52897C9A2D825E3B006F017B /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52897C9A2D825E3B006F017B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		52897C9B2D825E3F006F017B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				52897C9C2D825E4D006F017B /* ChangeLangView.swift */,
+				52897C9E2D826220006F017B /* WelcomeView.swift */,
+				52897CA02D826496006F017B /* MobileNumberView.swift */,
+				52897CA92D828EEE006F017B /* OTPView.swift */,
+				52D514012D87640F001C2C70 /* SignInView.swift */,
+				52D514052D877543001C2C70 /* SignUpView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +179,9 @@
 			dependencies = (
 			);
 			name = TaxiApp;
+			packageProductDependencies = (
+				52897CA72D8288E5006F017B /* CountryPickerView */,
+			);
 			productName = TaxiApp;
 			productReference = 52897C7C2D8254AB006F017B /* TaxiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 52897C732D8254AB006F017B;
+			packageReferences = (
+				52897CA62D8288E5006F017B /* XCRemoteSwiftPackageReference "CountryPickerView" */,
+			);
 			productRefGroup = 52897C7D2D8254AB006F017B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +227,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52897CA32D826B8A006F017B /* Launch Screen.storyboard in Resources */,
 				52897C872D8254B2006F017B /* Preview Assets.xcassets in Resources */,
-				52897C842D8254B2006F017B /* Assets.xcassets in Resources */,
+				52897C992D8255ED006F017B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +240,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52897C9F2D826220006F017B /* WelcomeView.swift in Sources */,
+				52897CA52D8288C8006F017B /* CountryPickerComp.swift in Sources */,
 				52897C822D8254AB006F017B /* ContentView.swift in Sources */,
-				52897C802D8254AB006F017B /* TaxiAppApp.swift in Sources */,
+				52897C952D8254EA006F017B /* UIExtension.swift in Sources */,
+				52D514002D8762EC001C2C70 /* FloatingField.swift in Sources */,
+				52897C9D2D825E4D006F017B /* ChangeLangView.swift in Sources */,
+				52897CAC2D829197006F017B /* OTPTextField.swift in Sources */,
+				52897C802D8254AB006F017B /* TaxiApp.swift in Sources */,
+				52D514062D877543001C2C70 /* SignUpView.swift in Sources */,
+				52D514042D876846001C2C70 /* NavigationBack.swift in Sources */,
+				52897CAA2D828EEE006F017B /* OTPView.swift in Sources */,
+				52D514022D87640F001C2C70 /* SignInView.swift in Sources */,
+				52897CA12D826496006F017B /* MobileNumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +387,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +416,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +453,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52897CA62D8288E5006F017B /* XCRemoteSwiftPackageReference "CountryPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kizitonwose/CountryPickerView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52897CA72D8288E5006F017B /* CountryPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52897CA62D8288E5006F017B /* XCRemoteSwiftPackageReference "CountryPickerView" */;
+			productName = CountryPickerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52897C742D8254AB006F017B /* Project object */;
 }

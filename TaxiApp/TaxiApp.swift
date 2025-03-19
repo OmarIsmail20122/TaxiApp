@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct TaxiAppApp: App {
+struct TaxiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ChangeLangView()
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
